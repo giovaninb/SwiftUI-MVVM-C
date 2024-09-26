@@ -29,6 +29,11 @@
 		80AA70242CA4E28A0011BDDC /* RepoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA70232CA4E2850011BDDC /* RepoListView.swift */; };
 		80AA70262CA4E2C50011BDDC /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA70252CA4E2C20011BDDC /* RepoCell.swift */; };
 		80AA70282CA4E2F50011BDDC /* RepoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA70272CA4E2EF0011BDDC /* RepoListViewModel.swift */; };
+		80AA702B2CA4E89F0011BDDC /* RepoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA702A2CA4E8950011BDDC /* RepoDetailsView.swift */; };
+		80AA702D2CA4E8CA0011BDDC /* RepoDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA702C2CA4E8C20011BDDC /* RepoDetailsViewModel.swift */; };
+		80AA70302CA4E95D0011BDDC /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA702F2CA4E9580011BDDC /* ProfileCoordinator.swift */; };
+		80AA70322CA4E9720011BDDC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA70312CA4E96E0011BDDC /* ProfileView.swift */; };
+		80AA70342CA4E9820011BDDC /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA70332CA4E97C0011BDDC /* ProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +78,11 @@
 		80AA70232CA4E2850011BDDC /* RepoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListView.swift; sourceTree = "<group>"; };
 		80AA70252CA4E2C20011BDDC /* RepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCell.swift; sourceTree = "<group>"; };
 		80AA70272CA4E2EF0011BDDC /* RepoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListViewModel.swift; sourceTree = "<group>"; };
+		80AA702A2CA4E8950011BDDC /* RepoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsView.swift; sourceTree = "<group>"; };
+		80AA702C2CA4E8C20011BDDC /* RepoDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsViewModel.swift; sourceTree = "<group>"; };
+		80AA702F2CA4E9580011BDDC /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		80AA70312CA4E96E0011BDDC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		80AA70332CA4E97C0011BDDC /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +163,7 @@
 		80AA6FFB2CA4C1930011BDDC /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				80AA702E2CA4E94F0011BDDC /* Profile */,
 				80AA701F2CA4E14B0011BDDC /* RepoList */,
 			);
 			path = Modules;
@@ -243,6 +254,7 @@
 		80AA701F2CA4E14B0011BDDC /* RepoList */ = {
 			isa = PBXGroup;
 			children = (
+				80AA70292CA4E8800011BDDC /* Details */,
 				80AA70222CA4E27C0011BDDC /* List */,
 				80AA70202CA4E15C0011BDDC /* RepoListCoordinator.swift */,
 			);
@@ -257,6 +269,25 @@
 				80AA70232CA4E2850011BDDC /* RepoListView.swift */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		80AA70292CA4E8800011BDDC /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				80AA702C2CA4E8C20011BDDC /* RepoDetailsViewModel.swift */,
+				80AA702A2CA4E8950011BDDC /* RepoDetailsView.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		80AA702E2CA4E94F0011BDDC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				80AA70332CA4E97C0011BDDC /* ProfileViewModel.swift */,
+				80AA70312CA4E96E0011BDDC /* ProfileView.swift */,
+				80AA702F2CA4E9580011BDDC /* ProfileCoordinator.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,6 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80AA70022CA4C2830011BDDC /* User.swift in Sources */,
+				80AA70302CA4E95D0011BDDC /* ProfileCoordinator.swift in Sources */,
 				80AA70162CA4C89E0011BDDC /* NetworkClient.swift in Sources */,
 				80AA70212CA4E1630011BDDC /* RepoListCoordinator.swift in Sources */,
 				80AA700E2CA4C5630011BDDC /* EmptyNavigationLink.swift in Sources */,
@@ -406,12 +438,16 @@
 				80AA70282CA4E2F50011BDDC /* RepoListViewModel.swift in Sources */,
 				80AA70002CA4C25D0011BDDC /* Repo.swift in Sources */,
 				80AA70182CA4DFAE0011BDDC /* NetworkUtils.swift in Sources */,
+				80AA702B2CA4E89F0011BDDC /* RepoDetailsView.swift in Sources */,
 				80AA70062CA4C2CF0011BDDC /* Container.swift in Sources */,
+				80AA702D2CA4E8CA0011BDDC /* RepoDetailsViewModel.swift in Sources */,
+				80AA70342CA4E9820011BDDC /* ProfileViewModel.swift in Sources */,
 				80AA70242CA4E28A0011BDDC /* RepoListView.swift in Sources */,
 				80AA701C2CA4E0820011BDDC /* Binding+Utils.swift in Sources */,
 				80AA6F952CA4BE850011BDDC /* ContentView.swift in Sources */,
 				80AA6F932CA4BE850011BDDC /* SwiftUI_MVVM_CApp.swift in Sources */,
 				80AA701A2CA4E0530011BDDC /* View+Utils.swift in Sources */,
+				80AA70322CA4E9720011BDDC /* ProfileView.swift in Sources */,
 				80AA700B2CA4C47F0011BDDC /* GithubNetworkProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

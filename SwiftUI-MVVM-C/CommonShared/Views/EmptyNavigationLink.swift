@@ -21,7 +21,6 @@ struct EmptyNavigationLink<Destination>: View where Destination: View {
         self.isActive = selectedItem.map(valueToMappedValue: { $0 != nil }, mappedValueToValue: { _ in nil })
     }
     
-    
     var body: some View {
         NavigationLink(destination: destination,
                        isActive: isActive,

@@ -26,15 +26,16 @@ struct RepoListCoordinator: View {
                 isProfilePresented = true
             }, label: {
                 Image(systemName: "person.crop.circle")
+                    .tint(.black)
             }))
             
-//            if let selectedRepo = selectedRepo {
-//                EmptyNavigationLink(destination: RepoDetailsView(inputRepo: selectedRepo, tapOnLinkAction: tapOnLinkAction), selectedItem: $selectedRepo)
-//            }
+            if let selectedRepo = selectedRepo {
+                EmptyNavigationLink(destination: RepoDetailsView(inputRepo: selectedRepo, tapOnLinkAction: tapOnLinkAction), selectedItem: $selectedRepo)
+            }
         }
-//        .fullScreenCover(isPresented: $isProfilePresented, content: {
-//            ProfileCoordinator(username: username)
-//        })
+        .fullScreenCover(isPresented: $isProfilePresented, content: {
+            ProfileCoordinator(username: username)
+        })
     }
     
     private func tapOnLinkAction(url: URL) {
