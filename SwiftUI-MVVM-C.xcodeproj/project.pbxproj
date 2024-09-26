@@ -12,8 +12,23 @@
 		80AA6F972CA4BE880011BDDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80AA6F962CA4BE880011BDDC /* Assets.xcassets */; };
 		80AA6F9A2CA4BE880011BDDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80AA6F992CA4BE880011BDDC /* Preview Assets.xcassets */; };
 		80AA6FA42CA4BE890011BDDC /* SwiftUI_MVVM_CTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA6FA32CA4BE890011BDDC /* SwiftUI_MVVM_CTests.swift */; };
-		80AA6FAE2CA4BE890011BDDC /* SwiftUI_MVVM_CUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA6FAD2CA4BE890011BDDC /* SwiftUI_MVVM_CUITests.swift */; };
-		80AA6FB02CA4BE890011BDDC /* SwiftUI_MVVM_CUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA6FAF2CA4BE890011BDDC /* SwiftUI_MVVM_CUITestsLaunchTests.swift */; };
+		80AA6FFA2CA4C14C0011BDDC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 80AA6FF92CA4C14C0011BDDC /* Alamofire */; };
+		80AA70002CA4C25D0011BDDC /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA6FFF2CA4C25D0011BDDC /* Repo.swift */; };
+		80AA70022CA4C2830011BDDC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA70012CA4C2830011BDDC /* User.swift */; };
+		80AA70062CA4C2CF0011BDDC /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA70052CA4C2CF0011BDDC /* Container.swift */; };
+		80AA70092CA4C4390011BDDC /* GithubRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA70082CA4C4390011BDDC /* GithubRouter.swift */; };
+		80AA700B2CA4C47F0011BDDC /* GithubNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA700A2CA4C47F0011BDDC /* GithubNetworkProvider.swift */; };
+		80AA700E2CA4C5630011BDDC /* EmptyNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA700D2CA4C5630011BDDC /* EmptyNavigationLink.swift */; };
+		80AA70132CA4C8090011BDDC /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA70122CA4C8090011BDDC /* NetworkProvider.swift */; };
+		80AA70162CA4C89E0011BDDC /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA70152CA4C89E0011BDDC /* NetworkClient.swift */; };
+		80AA70182CA4DFAE0011BDDC /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA70172CA4DFAE0011BDDC /* NetworkUtils.swift */; };
+		80AA701A2CA4E0530011BDDC /* View+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA70192CA4E0460011BDDC /* View+Utils.swift */; };
+		80AA701C2CA4E0820011BDDC /* Binding+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA701B2CA4E07C0011BDDC /* Binding+Utils.swift */; };
+		80AA701E2CA4E0A60011BDDC /* Publisher+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA701D2CA4E0A00011BDDC /* Publisher+Utils.swift */; };
+		80AA70212CA4E1630011BDDC /* RepoListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA70202CA4E15C0011BDDC /* RepoListCoordinator.swift */; };
+		80AA70242CA4E28A0011BDDC /* RepoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA70232CA4E2850011BDDC /* RepoListView.swift */; };
+		80AA70262CA4E2C50011BDDC /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA70252CA4E2C20011BDDC /* RepoCell.swift */; };
+		80AA70282CA4E2F50011BDDC /* RepoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AA70272CA4E2EF0011BDDC /* RepoListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +57,22 @@
 		80AA6F9F2CA4BE890011BDDC /* SwiftUI-MVVM-CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-MVVM-CTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80AA6FA32CA4BE890011BDDC /* SwiftUI_MVVM_CTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MVVM_CTests.swift; sourceTree = "<group>"; };
 		80AA6FA92CA4BE890011BDDC /* SwiftUI-MVVM-CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-MVVM-CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80AA6FAD2CA4BE890011BDDC /* SwiftUI_MVVM_CUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MVVM_CUITests.swift; sourceTree = "<group>"; };
-		80AA6FAF2CA4BE890011BDDC /* SwiftUI_MVVM_CUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MVVM_CUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80AA6FFF2CA4C25D0011BDDC /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		80AA70012CA4C2830011BDDC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		80AA70052CA4C2CF0011BDDC /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		80AA70082CA4C4390011BDDC /* GithubRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubRouter.swift; sourceTree = "<group>"; };
+		80AA700A2CA4C47F0011BDDC /* GithubNetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubNetworkProvider.swift; sourceTree = "<group>"; };
+		80AA700D2CA4C5630011BDDC /* EmptyNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyNavigationLink.swift; sourceTree = "<group>"; };
+		80AA70122CA4C8090011BDDC /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		80AA70152CA4C89E0011BDDC /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		80AA70172CA4DFAE0011BDDC /* NetworkUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtils.swift; sourceTree = "<group>"; };
+		80AA70192CA4E0460011BDDC /* View+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Utils.swift"; sourceTree = "<group>"; };
+		80AA701B2CA4E07C0011BDDC /* Binding+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Utils.swift"; sourceTree = "<group>"; };
+		80AA701D2CA4E0A00011BDDC /* Publisher+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Utils.swift"; sourceTree = "<group>"; };
+		80AA70202CA4E15C0011BDDC /* RepoListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListCoordinator.swift; sourceTree = "<group>"; };
+		80AA70232CA4E2850011BDDC /* RepoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListView.swift; sourceTree = "<group>"; };
+		80AA70252CA4E2C20011BDDC /* RepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCell.swift; sourceTree = "<group>"; };
+		80AA70272CA4E2EF0011BDDC /* RepoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80AA6FFA2CA4C14C0011BDDC /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +106,6 @@
 			children = (
 				80AA6F912CA4BE850011BDDC /* SwiftUI-MVVM-C */,
 				80AA6FA22CA4BE890011BDDC /* SwiftUI-MVVM-CTests */,
-				80AA6FAC2CA4BE890011BDDC /* SwiftUI-MVVM-CUITests */,
 				80AA6F902CA4BE850011BDDC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +123,9 @@
 		80AA6F912CA4BE850011BDDC /* SwiftUI-MVVM-C */ = {
 			isa = PBXGroup;
 			children = (
+				80AA6FFD2CA4C1A10011BDDC /* CommonShared */,
+				80AA6FFC2CA4C19C0011BDDC /* Shared */,
+				80AA6FFB2CA4C1930011BDDC /* Modules */,
 				80AA6F922CA4BE850011BDDC /* SwiftUI_MVVM_CApp.swift */,
 				80AA6F942CA4BE850011BDDC /* ContentView.swift */,
 				80AA6F962CA4BE880011BDDC /* Assets.xcassets */,
@@ -118,13 +150,113 @@
 			path = "SwiftUI-MVVM-CTests";
 			sourceTree = "<group>";
 		};
-		80AA6FAC2CA4BE890011BDDC /* SwiftUI-MVVM-CUITests */ = {
+		80AA6FFB2CA4C1930011BDDC /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				80AA6FAD2CA4BE890011BDDC /* SwiftUI_MVVM_CUITests.swift */,
-				80AA6FAF2CA4BE890011BDDC /* SwiftUI_MVVM_CUITestsLaunchTests.swift */,
+				80AA701F2CA4E14B0011BDDC /* RepoList */,
 			);
-			path = "SwiftUI-MVVM-CUITests";
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		80AA6FFC2CA4C19C0011BDDC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				80AA70072CA4C3980011BDDC /* Networking */,
+				80AA6FFE2CA4C24C0011BDDC /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		80AA6FFD2CA4C1A10011BDDC /* CommonShared */ = {
+			isa = PBXGroup;
+			children = (
+				80AA70102CA4C7E50011BDDC /* Networking */,
+				80AA700F2CA4C7DF0011BDDC /* Extensions */,
+				80AA700C2CA4C54D0011BDDC /* Views */,
+				80AA70032CA4C2B70011BDDC /* Utils */,
+			);
+			path = CommonShared;
+			sourceTree = "<group>";
+		};
+		80AA6FFE2CA4C24C0011BDDC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				80AA6FFF2CA4C25D0011BDDC /* Repo.swift */,
+				80AA70012CA4C2830011BDDC /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		80AA70032CA4C2B70011BDDC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				80AA70052CA4C2CF0011BDDC /* Container.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		80AA70072CA4C3980011BDDC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				80AA70082CA4C4390011BDDC /* GithubRouter.swift */,
+				80AA700A2CA4C47F0011BDDC /* GithubNetworkProvider.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		80AA700C2CA4C54D0011BDDC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80AA700D2CA4C5630011BDDC /* EmptyNavigationLink.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		80AA700F2CA4C7DF0011BDDC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				80AA701D2CA4E0A00011BDDC /* Publisher+Utils.swift */,
+				80AA701B2CA4E07C0011BDDC /* Binding+Utils.swift */,
+				80AA70192CA4E0460011BDDC /* View+Utils.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		80AA70102CA4C7E50011BDDC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				80AA70112CA4C7F30011BDDC /* NetworkProvider */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		80AA70112CA4C7F30011BDDC /* NetworkProvider */ = {
+			isa = PBXGroup;
+			children = (
+				80AA70122CA4C8090011BDDC /* NetworkProvider.swift */,
+				80AA70152CA4C89E0011BDDC /* NetworkClient.swift */,
+				80AA70172CA4DFAE0011BDDC /* NetworkUtils.swift */,
+			);
+			path = NetworkProvider;
+			sourceTree = "<group>";
+		};
+		80AA701F2CA4E14B0011BDDC /* RepoList */ = {
+			isa = PBXGroup;
+			children = (
+				80AA70222CA4E27C0011BDDC /* List */,
+				80AA70202CA4E15C0011BDDC /* RepoListCoordinator.swift */,
+			);
+			path = RepoList;
+			sourceTree = "<group>";
+		};
+		80AA70222CA4E27C0011BDDC /* List */ = {
+			isa = PBXGroup;
+			children = (
+				80AA70272CA4E2EF0011BDDC /* RepoListViewModel.swift */,
+				80AA70252CA4E2C20011BDDC /* RepoCell.swift */,
+				80AA70232CA4E2850011BDDC /* RepoListView.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +275,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI-MVVM-C";
+			packageProductDependencies = (
+				80AA6FF92CA4C14C0011BDDC /* Alamofire */,
+			);
 			productName = "SwiftUI-MVVM-C";
 			productReference = 80AA6F8F2CA4BE850011BDDC /* SwiftUI-MVVM-C.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +350,9 @@
 				Base,
 			);
 			mainGroup = 80AA6F862CA4BE850011BDDC;
+			packageReferences = (
+				80AA6FF82CA4C14C0011BDDC /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 80AA6F902CA4BE850011BDDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +395,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80AA70022CA4C2830011BDDC /* User.swift in Sources */,
+				80AA70162CA4C89E0011BDDC /* NetworkClient.swift in Sources */,
+				80AA70212CA4E1630011BDDC /* RepoListCoordinator.swift in Sources */,
+				80AA700E2CA4C5630011BDDC /* EmptyNavigationLink.swift in Sources */,
+				80AA70132CA4C8090011BDDC /* NetworkProvider.swift in Sources */,
+				80AA701E2CA4E0A60011BDDC /* Publisher+Utils.swift in Sources */,
+				80AA70092CA4C4390011BDDC /* GithubRouter.swift in Sources */,
+				80AA70262CA4E2C50011BDDC /* RepoCell.swift in Sources */,
+				80AA70282CA4E2F50011BDDC /* RepoListViewModel.swift in Sources */,
+				80AA70002CA4C25D0011BDDC /* Repo.swift in Sources */,
+				80AA70182CA4DFAE0011BDDC /* NetworkUtils.swift in Sources */,
+				80AA70062CA4C2CF0011BDDC /* Container.swift in Sources */,
+				80AA70242CA4E28A0011BDDC /* RepoListView.swift in Sources */,
+				80AA701C2CA4E0820011BDDC /* Binding+Utils.swift in Sources */,
 				80AA6F952CA4BE850011BDDC /* ContentView.swift in Sources */,
 				80AA6F932CA4BE850011BDDC /* SwiftUI_MVVM_CApp.swift in Sources */,
+				80AA701A2CA4E0530011BDDC /* View+Utils.swift in Sources */,
+				80AA700B2CA4C47F0011BDDC /* GithubNetworkProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +428,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80AA6FB02CA4BE890011BDDC /* SwiftUI_MVVM_CUITestsLaunchTests.swift in Sources */,
-				80AA6FAE2CA4BE890011BDDC /* SwiftUI_MVVM_CUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +736,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		80AA6FF82CA4C14C0011BDDC /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		80AA6FF92CA4C14C0011BDDC /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80AA6FF82CA4C14C0011BDDC /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 80AA6F872CA4BE850011BDDC /* Project object */;
 }

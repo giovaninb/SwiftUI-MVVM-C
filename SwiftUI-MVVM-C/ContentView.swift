@@ -8,17 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    static let username = "giovaninb"
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            RepoListCoordinator(username: Self.username)
         }
-        .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }
